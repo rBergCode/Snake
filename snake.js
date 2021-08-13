@@ -1,4 +1,4 @@
-var SIZE = 50;
+var SIZE = 20;
 var SQUARESIZE;
 var apple = [];
 var snake = [];
@@ -9,7 +9,7 @@ var x = 0;
 var y = 0;
 
 function setup() {
-  createCanvas(windowHeight-4,windowHeight-4);
+  createCanvas(400,400);
   this.SQUARESIZE = width / this.SIZE;
   startGame();
 }
